@@ -7,7 +7,6 @@ function Person(name, birthDate) {
     this.name = name;
     this.birthDate = new Date(birthDate);
     this.friends = [];
-    console.log(this.birthDate);
 }
 
 Person.prototype.setName = function(name) {
