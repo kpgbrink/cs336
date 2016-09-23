@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        <script src="logs.js" type="application/javascript"></script>
+    </head>
+    <body>
+
+        <h1>Lab 3</h1>
+        <p>Answers to lab 3 exercises:</p>
+        <ul>
+            <li>3.1</li>
+            <ol type='a'>
+                <li><span class="question">Compare and contrast the purposes of Node.js and of Express.js.</span>
+                    <br> Node.js is generally a server side platform for building server-side i/o application using javascript while express.js is a framework that uses node.js for web-applications. Express is built on top of Node so Express adds more features.
+                </li>
+                <li><span class="question">Explain the purpose of the package.json file.</span>
+                    <br> package.json holds meta data relevant to the project. It shows what dependencies there are and it enables things to be published with npm.
+                </li>
+            </ol>
+            <li>3.2</li>
+            <ol type='a'>
+                <li><span class="question">Explain the sense in which these files are static.</span>
+                    <br> The files are sent directly to the client. Express.js just outputs the files as they are in the file system.
+                </li>
+                <li><span class="question">Determine whether the server continues to serve up the hello-world message and explain why this is the case.</span>
+                    <br> Yes, Express will match what is being asked for. When localhost:3000/ is requested the '/' matches the app.get('/' and it will run the function that sends Hello World! app.get is matched because it is before the app.use.
+                </li>
+            </ol>
+        </ul>
+
+        <a href="http://www.tinyurl.com/kpgbrink">
+            <img src="lemur.jpg">
+            <h1 class="typer" data-text="CLICK HERE FOR THE LINK. This is the link. Please click here for the link. This is the link click here please. This is definitely the link I have no doubt about it. asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf"></h1>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+            <div class="block"> </div>
+        </a>
+
+    </body>
+</html>
+
