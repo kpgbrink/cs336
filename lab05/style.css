@@ -1,0 +1,42 @@
+body {
+  margin: 10;
+  background-color: #808080;
+}
+div {
+  border: 2px solid #000;
+}
+.tanStyle {
+  padding: 10px 10px 10px 10px;
+  background-color: #faebd7;
+}
+.tanStyle #title-bar {
+  font-family: monospace;
+}
+.tanStyle #footer {
+  font-size: 0.7em;
+}
+#page-body {
+  display: flex;
+}
+#page-body .blueStyle {
+  padding: 10px 10px 10px 10px;
+  background-color: #add8e6;
+  min-width: 100;
+  font-family: monospace;
+}
+#page-body #nav {
+  text-align: right;
+}
+#page-body .body {
+  padding: 10px 10px 10px 10px;
+  background-color: #d2b48c;
+  font-family: cursive;
+}
+@media screen and (max-width: 1000px) {
+  #page-body {
+    display: block;
+  }
+  #page-body #nav {
+    text-align: left;
+  }
+}
