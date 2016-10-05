@@ -1,0 +1,47 @@
+body {
+    margin: 10;
+    background-color: grey;
+}
+
+div {
+    border: 2px solid black;
+}
+
+.tanStyle {
+    padding: 10px 10px 10px 40px;
+    background-color: antiquewhite;
+}
+
+.blueStyle {
+    padding: 10px 10px 10px 10px;
+    background-color: lightblue;
+    min-width: 100;
+    font-family: monospace;
+}
+
+#first-block {
+    text-align: right;
+}
+
+.body {
+    padding: 20px 20px 20px 20px;
+    background-color: tan;
+    font-family: cursive;
+}
+
+#footer {
+    font-size: .7em;
+}
+
+#page-body {
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    #page-body {
+        display: block;
+    }
+    #first-block {
+        text-align: left;
+    }
+}
