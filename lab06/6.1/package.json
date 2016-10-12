@@ -1,0 +1,11 @@
+{
+  "name": "6.1",
+  "version": "1.0.0",
+  "description": "Testing basic routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristofer Brink",
+  "license": "ISC"
+}
