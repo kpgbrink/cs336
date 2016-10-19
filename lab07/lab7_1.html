@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    <div id="paragraphAdd">
+        <!-- Added paragraph will go here-->
+    </div>
+    <script>
+    // Your code goes here.
+        $( document ).ready(function() {
+            let text = $("<p></p>").text("Hello this is a paragraph.");
+            $("#paragraphAdd").append(text);
+    });
+    </script>
+</body>
+</html>
