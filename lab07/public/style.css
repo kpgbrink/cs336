@@ -1,0 +1,6 @@
+* {padding:5px}
+
+#dataRequest {
+    display: flex;
+    padding: 20px;
+}
