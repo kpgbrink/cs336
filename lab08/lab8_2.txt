@@ -1,0 +1,24 @@
+a.
+    i. React lets you break the UI into a component hierarchy and put them together.
+       This makes it easier to make bigger applications and has good scalability.
+   
+   ii. JSX adds XML syntax to JavaScript and makes React more elegant.
+
+  iii. Comments are loaded with loadCommentsFromServer using ajax.
+       They are created with a commentBox and are saved by writing to 
+       comments.js.
+  
+   iv. props are immutable and they are components of configuration. A Component
+       cannot change its props but it is responsible for putting together props of child Components.
+       states are muttable. State is able to be changed by Component.
+b.
+    i. When I edit a comment or delete it the comment is updated on the client. This happens because there is a poll interval of 2000. 
+       So every 2000 miliseconds it pulls from the server and updates the client.
+       
+   ii. It uses ReactDOM.render with a pollInterval of 2 seconds. 
+       So it displays when it is first shown and updates the dom every 2 seconds. 
+       
+  iii. If a component is changed the DOM should also changed. If a component does not represent the state then what is displayed is not known. 
+  
+   iv. Optimism is not foolish because it is expected that the comment will work and it will make posting feel instant instead of laggy. 
+       If the server rejects the comment then after it is displayed it will be deleted.
