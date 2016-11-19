@@ -20,7 +20,7 @@ MongoClient.connect('mongodb://cs336:PASSWORD@ds157667.mlab.com:57667/people', f
 });
 });
 
-app.set('port', (process.env.PORT || 3001));
+app.set('port', (process.env.PORT || 3000));
 
 app.use('/', express.static(path.join(__dirname, 'dist')));
 app.use(bodyParser.json());
