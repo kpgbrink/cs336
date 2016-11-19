@@ -10,6 +10,7 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 import ReactDOM from 'react-dom';
+import React from 'react';
 
 import '../css/base.css';
 
