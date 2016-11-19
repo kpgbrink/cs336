@@ -17,11 +17,11 @@ var bodyParser = require('body-parser');
 var app = express();
 
 
-var MongoClient = require('mongodb').MongoClient
+var MongoClient = require('mongodb').MongoClient;
 
 var db;
 
-MongoClient.connect('mongodb://cs336:PASSWORD@ds151697.mlab.com:51697/cs336', function (err, dbConnection) {
+MongoClient.connect('mongodb://cs336:bjarne@ds151697.mlab.com:51697/cs336', function (err, dbConnection) {
   if (err) throw err
 
   db = dbConnection;

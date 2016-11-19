@@ -138,8 +138,6 @@ Person.prototype.calculateYears = function() {
     return age;
 }
 
-
-
 function addPerson(person) {
     while (data.has(String(key))) {
         key++;

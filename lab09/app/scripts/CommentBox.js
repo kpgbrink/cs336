@@ -1,5 +1,4 @@
 import React from 'react';
-import Remarkable from 'remarkable';
 import $ from 'jquery';
 
 import CommentList from './CommentList.js';
