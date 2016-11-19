@@ -27,7 +27,7 @@ module.exports = {
             }
         }),
         new HtmlWebpackPlugin({template: __dirname + "/app/index.tmpl.html"}),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin(),
         new ExtractTextPlugin("[name]-[hash].css")
