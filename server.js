@@ -94,7 +94,7 @@ app.use('*', express.static(APP_PATH));
 
 // process.env.MONGO_PASSWORD
 // This assumes that the MongoDB password has been set as an environment variable.
-var mongoURL = 'mongodb://cs336:'+process.env.MONGO_PASSWORD+'@ds151697.mlab.com:51697/cs336';
+var mongoURL = 'mongodb://cs336:'+process.env.MONGODB_PASSWORD+'@ds151697.mlab.com:51697/cs336';
 MongoClient.connect(mongoURL, function(err, dbConnection) {
     if (err) throw err;
     db = dbConnection;
