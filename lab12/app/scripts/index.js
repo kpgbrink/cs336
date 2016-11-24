@@ -9,13 +9,14 @@
  * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-import ReactDOM from 'react-dom';
 import React from 'react';
-import {Router, Route, Redirect, browserHistory } from 'react-router';
-
-import '../css/base.css';
+import ReactDOM from 'react-dom';
+import { Router, Route, Redirect, browserHistory } from 'react-router';
 
 import CommentBox from './CommentBox.js';
+import CommentEdit from './CommentEdit.js';
+
+import '../css/base.css';
 
 ReactDOM.render((
     <Router history={browserHistory}>
