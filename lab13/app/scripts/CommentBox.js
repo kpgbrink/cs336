@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CommentList from './commentList';
-import CommentForm from './commentForm';
+import CommentList from './CommentList';
+import CommentForm from './CommentForm';
 import { store, ActionTools } from './flux';
 
 export default React.createClass({
