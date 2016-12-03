@@ -1,5 +1,5 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin')
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     entry: [
@@ -15,10 +15,9 @@ module.exports = {
             { test: /\.css$/,  loader: 'style!css?modules!postcss' }
         ]
     },
-    postcss: [],
     plugins: [
-        new HtmlWebpackPlugin({template: __dirname + "/app/index.tmpl.html"}),
-        new webpack.HotModuleReplacementPlugin()
+	new HtmlWebpackPlugin({template: __dirname + "/app/index.tmpl.html"}),
+	new webpack.HotModuleReplacementPlugin()
     ],
     devServer: {
         port: 3001,
