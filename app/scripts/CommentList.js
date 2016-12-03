@@ -2,7 +2,7 @@ import React from 'react';
 import $ from 'jquery';
 import Remarkable from 'remarkable';
 
-import Comment from './comment';
+import Comment from './Comment';
 
 export default React.createClass({
     render: function() {
